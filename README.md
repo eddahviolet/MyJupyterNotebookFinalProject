@@ -16,3 +16,10 @@ The steps involed are:
 * Connection Pooling
 * Implement a stored procedure called PeakHours
 * Implement a stored procedure called Gueststatus
+
+#### Part 2
+* Create a new pool and get a connection from the pool, use a try-except block in case the connection fails. 
+* Book in 3 guests simultenously into a pool with 2 connections
+* Create a report, using sql queries to retrieve specified information
+* Create a stored procedure named BasicSalesReport 
+* Display next 3 upcoming bookings and staff involved, with data from Bookings and Employeees table
